@@ -12,5 +12,4 @@ describe('delete json', () => {
     const actual = res.body;
     expect(actual).toEqual(expected);
   });
-};
-)
+});
