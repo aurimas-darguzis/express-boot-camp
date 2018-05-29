@@ -5,6 +5,7 @@ const app = express();
 app.use(bodyParser.json());
 
 app.get('/', (req, res) => {
+    console.log('im here ???? ');
     res.status(401).end();
 });
 
@@ -18,4 +19,4 @@ app.post('/', (req, res) => {
 
 app.get('/moved', (req, res) => {
     res.redirect('/');
-})
+});
